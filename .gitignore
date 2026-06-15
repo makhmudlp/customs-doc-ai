@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Vector DB (rebuilt by rag_build.py)
+chroma_db/
+
+# Word temp/lock files
+~$*
+
+# The Customs Code source (obtained separately — see README)
+customs_code.docx
+
+# Test inputs / outputs
+final_invoices.pdf
+invoice.PDF
+test_searchable.pdf
+test.png
+table_test.png
+russian.png
+table_out/
+
+# OS noise
+.DS_Store
